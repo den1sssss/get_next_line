@@ -6,7 +6,7 @@
 /*   By: dshirely <dshirely@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/28 18:26:38 by dshirely          #+#    #+#             */
-/*   Updated: 2021/12/04 13:52:23 by dshirely         ###   ########.fr       */
+/*   Updated: 2021/12/25 18:10:30 by dshirely         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -51,7 +51,7 @@ char	*strochka(char *str)
 	i = indexkek(str);
 	if (i == -1)
 		return (ft_strdup(str));
-	kek = malloc(i + 1);
+	kek = malloc(i + 2);
 	j = 0;
 	while (j < i + 1)
 	{
